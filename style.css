@@ -86,6 +86,10 @@ body {
   position: relative;
 }
 
+.burger {
+  display: none;
+}
+
 .header-nav ul li a {
   padding: 1rem 1rem;
   font-size: .9rem;
