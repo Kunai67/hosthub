@@ -223,7 +223,7 @@ body {
 }
 
 .pricing-box {
-  padding: 3em 0 2em 3em;
+  padding: 2em 0 2em 4em;
   position: relative;
 }
 
@@ -561,7 +561,7 @@ body {
 
 .footer-products h2 {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .footer-products ul li a {
@@ -575,7 +575,7 @@ body {
 
 .footer-newsletter h2 {
   margin-bottom: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .footer-newsletter p {
@@ -618,7 +618,7 @@ body {
 }
 
 .footer-instagram h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
