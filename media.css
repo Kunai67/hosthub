@@ -255,10 +255,20 @@
     justify-self: end;
   }
 
-  .header-nav {
-    display: none;
+  .header-nav-container {
+    transition: all .25s ease;
+    overflow: hidden;
+    height: 0;
     justify-self: start;
-    margin-top: -1.2em;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+  }
+
+  .nav-is-shown {
+    height: 50vh;
+    position: absolute;
+    z-index: 1;
   }
 
   .header-nav ul li {

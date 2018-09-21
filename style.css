@@ -83,6 +83,7 @@ body {
 
 .header-nav {
   justify-self: end;
+  position: relative;
 }
 
 .header-nav ul li a {

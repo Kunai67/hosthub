@@ -1,23 +1,10 @@
 'use strict'
 
-let header = document.querySelector('.l-header');
-let headerHeight = header.offsetHeight;
-let nav = document.querySelector('.header-nav');
-let banner = document.querySelector('.l-banner');
-let bannerPosition = banner.getBoundingClientRect().top;
+let nav = document.querySelector('.header-nav-container');
 let burgerButton = document.querySelector('.burger');
-let navIsShown = false;
 
 function toggleSidebarNav () {
-  if (navIsShown == false) {
-    header.style.position = 'absolute';
-    nav.style.display = 'block';
-    navIsShown = true;
-  } else if (navIsShown == true) {
-    header.style.position = 'relative';
-    nav.style.display = 'none';
-    navIsShown = false;
-  }
+  nav.classList.toggle('nav-is-shown');
 }
 
 burgerButton.addEventListener('click', toggleSidebarNav);
