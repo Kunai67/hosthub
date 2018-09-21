@@ -21,6 +21,13 @@ function toggleSidebarNav () {
 }
 
 burgerButton.addEventListener('click', toggleSidebarNav);
+window.addEventListener('resize', function(e) {
+  if (window.innerWidth > 752) {
+    nav.style.display = 'block';
+  } else if (window.innerWidth < 752) {
+    nav.style.display = 'none';
+  }
+});
 
 // On every change of max width, look if the max width
 //is 758px or below then hide the nav bar and put
