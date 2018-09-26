@@ -102,7 +102,7 @@ body {
 }
 
 .l-banner {
-  background-color: var(--primary);
+  background: var(--primary);
 }
 
 .banner-grid {
@@ -580,6 +580,7 @@ body {
 
 .footer-newsletter {
   grid-area: newsletter;
+  position: relative;
 }
 
 .footer-newsletter h2 {
