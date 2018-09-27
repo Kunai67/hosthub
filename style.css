@@ -110,7 +110,7 @@ body {
   grid-template-columns: 2fr 3fr;
   grid-gap: 8rem;
   padding: 5rem 0;
-  height: 110vh;
+  min-height: 110vh;
   justify-content: center;
   align-items: center;
 }
