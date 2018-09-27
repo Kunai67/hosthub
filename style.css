@@ -40,7 +40,7 @@ body {
   grid-template-columns: 5fr 1fr;
 }
 
-.topbar-contacts, .topbar-contacts li, a, .header-nav ul, .header-nav ul li {
+.topbar-contacts, .topbar-contacts li, a, .header-nav ul, .header-nav-container ul li {
   display: inline-block;
 }
 
@@ -62,12 +62,14 @@ body {
   width: 100%;
   background-color: var(--white);
   padding: 1rem 0;
-  transition: all .5s ease-in;
+  transition: height .5s ease-in;
 }
 
 .header-logo {
   min-width: 150px;
   max-width: 200px;
+  flex-grow: 5;
+  flex-shrink: 1;
 }
 
 .header-logo img {
@@ -76,16 +78,23 @@ body {
 }
 
 .header-grid {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  transition: all .5s ease-in;
 }
 
 .header-nav {
-  justify-self: end;
+  flex-grow: 5;
+  display: grid;
+  position: relative;
 }
 
-.header-nav ul li a {
+.burger {
+  display: none;
+}
+
+.header-nav-container ul li a {
   padding: 1rem 1rem;
   font-size: .9rem;
   color: var(--dark);
@@ -93,7 +102,7 @@ body {
 }
 
 .l-banner {
-  background-color: var(--primary);
+  background: var(--primary);
 }
 
 .banner-grid {
@@ -101,7 +110,7 @@ body {
   grid-template-columns: 2fr 3fr;
   grid-gap: 8rem;
   padding: 5rem 0;
-  height: 110vh;
+  min-height: 110vh;
   justify-content: center;
   align-items: center;
 }
@@ -132,7 +141,7 @@ body {
   padding: 1rem 3rem;
   background-color: var(--secondary);
   border-radius: 5px;
-  transition: all .25s ease-in;
+  transition: background-color .25s ease-in;
 }
 
 .banner-text a:hover {
@@ -524,12 +533,26 @@ body {
   padding: 7rem 0;
 }
 
-.licenses-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5rem;
-  justify-items: center;
+.licenses-carousel {
+  width: 100%;
+}
+
+.carousel-img {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  min-width: 15em;
+  height: auto;
+  margin: 0 2.5em;
+}
+
+.carousel-img img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.carousel-img.is-selected img {
+  opacity: 1;
 }
 
 .l-licenses img {
@@ -571,6 +594,7 @@ body {
 
 .footer-newsletter {
   grid-area: newsletter;
+  position: relative;
 }
 
 .footer-newsletter h2 {
