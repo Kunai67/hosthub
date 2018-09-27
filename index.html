@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HostHub</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -267,12 +268,22 @@
 
     <section class="l-licenses">
       <div class="container">
-        <div class="licenses-grid">
-          <img src="res/license1.png" alt="License 1">
-          <img src="res/license2.png" alt="License 2">
-          <img src="res/license3.png" alt="License 3">
-          <img src="res/license4.png" alt="License 4">
-          <img src="res/license5.png" alt="License 5">
+        <div class="licenses-carousel">
+          <div class="carousel-img">
+            <img src="res/license1.png" alt="License 1" class="carousel-image">
+          </div>
+          <div class="carousel-img">
+            <img src="res/license2.png" alt="License 2" class="carousel-image">
+          </div>
+          <div class="carousel-img">
+            <img src="res/license3.png" alt="License 3" class="carousel-image">
+          </div>
+          <div class="carousel-img">
+            <img src="res/license4.png" alt="License 4" class="carousel-image">
+          </div>
+          <div class="carousel-img">
+            <img src="res/license5.png" alt="License 5" class="carousel-image">
+          </div>
         </div>
       </div>
     </section>
@@ -322,5 +333,7 @@
     </footer>
 
   <script src="burger.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="carousel.js" charset="utf-8"></script>
   </body>
 </html>

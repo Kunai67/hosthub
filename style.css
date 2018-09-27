@@ -62,7 +62,7 @@ body {
   width: 100%;
   background-color: var(--white);
   padding: 1rem 0;
-  transition: all .5s ease-in;
+  transition: height .5s ease-in;
 }
 
 .header-logo {
@@ -141,7 +141,7 @@ body {
   padding: 1rem 3rem;
   background-color: var(--secondary);
   border-radius: 5px;
-  transition: all .25s ease-in;
+  transition: background-color .25s ease-in;
 }
 
 .banner-text a:hover {
@@ -533,12 +533,26 @@ body {
   padding: 7rem 0;
 }
 
-.licenses-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5rem;
-  justify-items: center;
+.licenses-carousel {
+  width: 100%;
+}
+
+.carousel-img {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  min-width: 15em;
+  height: auto;
+  margin: 0 2.5em;
+}
+
+.carousel-img img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.carousel-img.is-selected img {
+  opacity: 1;
 }
 
 .l-licenses img {
