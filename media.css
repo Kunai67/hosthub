@@ -522,6 +522,10 @@
   .consultation-text a {
     font-size: 1em;
   }
+
+  .services-box h3 {
+    font-size: 1.7em;
+  }
 }
 
 @media (max-width: 320px) {
@@ -531,6 +535,10 @@
 
   .banner-text a {
     font-size: 1em;
+  }
+
+  .services-box h3 {
+    font-size: 1.5em;
   }
 
   .pricing-grid {
