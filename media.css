@@ -518,6 +518,10 @@
   .banner-text h1 {
     font-size: 2.5em;
   }
+
+  .consultation-text a {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 320px) {

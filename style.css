@@ -130,7 +130,7 @@ body {
 }
 
 .banner-text p {
-  opacity: .7;
+  opacity: .9;
   margin-bottom: 1.2rem;
   font-size: 1rem;
 }
@@ -164,7 +164,7 @@ body {
 }
 
 .features-text p {
-  opacity: .7;
+  opacity: .9;
   font-size: 1rem;
 }
 
@@ -194,7 +194,7 @@ body {
 
 .features-box p {
   line-height: 1.2;
-  opacity: .7;
+  opacity: .9;
   font-weight: 200;
   font-size: 1rem;
 }
@@ -216,7 +216,7 @@ body {
 }
 
 .pricing-text p {
-  opacity: .7;
+  opacity: .9;
   font-size: 1rem;
 }
 
@@ -259,7 +259,7 @@ body {
 .pricing-box h3 {
   font-weight: lighter;
   font-size: 1rem;
-  opacity: .7;
+  opacity: .9;
   margin-bottom: 1.5rem;
 }
 
@@ -270,11 +270,11 @@ body {
 .pricing-box span {
   display: inline-block;
   font-size: 1rem;
-  opacity: .7;
+  opacity: .9;
 }
 
 .pricing-box ul li {
-  opacity: .7;
+  opacity: .9;
 }
 
 .pricing-box ul li, .pricing-box h2, .pricing-box h4 {
@@ -319,7 +319,7 @@ body {
 
 .consultation-text p {
   margin-bottom: 1.5rem;
-  opacity: .7;
+  opacity: .9;
   font-size: 1rem;
 }
 
@@ -379,7 +379,7 @@ body {
 
 .testimonials-box h4, .testimonials-box p {
   font-size: 1rem;
-  opacity: .7;
+  opacity: .9;
 }
 
 .l-services::before {
@@ -412,7 +412,7 @@ body {
 }
 
 .services-text p {
-  opacity: .7;
+  opacity: .9;
   font-size: 1rem;
 }
 
@@ -448,7 +448,7 @@ body {
 }
 
 .services-box p {
-  opacity: .7;
+  opacity: .9;
   font-size: 1rem;
 }
 
@@ -469,7 +469,7 @@ body {
 }
 
 .blog-text p {
-  opacity: .7;
+  opacity: .9;
   margin-bottom: 5rem;
   font-size: 1rem;
 }
@@ -514,7 +514,7 @@ body {
 
 .blog-box p {
   font-size: 1rem;
-  opacity: .7;
+  opacity: .9;
   margin-bottom: 2rem;
 }
 
@@ -604,7 +604,7 @@ body {
 
 .footer-newsletter p {
   font-size: 1rem;
-  opacity: .7;
+  opacity: .9;
   margin-bottom: 1.5rem;
 }
 
@@ -665,7 +665,7 @@ body {
   grid-area: copyright;
   color: var(--light);
   font-size: 1rem;
-  opacity: .7;
+  opacity: .9;
   margin-top: 1rem;
   justify-self: start;
 }
